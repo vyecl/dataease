@@ -18,5 +18,5 @@ source:
     paths:
       - licenseReport.json
       - vulReport.json 
-#读取检测结果不用修改
+#读取检测结果不用修改 
     expire_in: 3 day
