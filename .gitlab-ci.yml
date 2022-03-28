@@ -3,7 +3,7 @@ stages:
 #定义管道中的阶段
 source:
   stage: source
-  image: "repo.gitsec.cn/docker/sca_scanner:v3"
+  image: "repo.gitsec.cn/docker/sca_scanner:v4"
   #选择使用那个镜像
   tags:
     - k8s
