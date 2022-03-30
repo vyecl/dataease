@@ -2,7 +2,7 @@ stages:
   - source
 #定义管道中的阶段
 source:
-  stage: source
+  stage: source 
   image: "repo.gitsec.cn/docker/sca_scanner:v2"
   #选择使用那个镜像
   tags:
